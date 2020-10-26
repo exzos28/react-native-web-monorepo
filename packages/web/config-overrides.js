@@ -10,6 +10,10 @@ module.exports = function (config, env) {
         /* transpile (converting to es5) code in src/ and shared component library */
         path.resolve('src'),
         path.resolve('../components'),
+        path.resolve('../../node_modules/react-native-vector-icons'),
+        path.resolve('../../node_modules/@ui-kitten'),
+        path.resolve('../../node_modules/@react-navigation'),
+        
       ])
     )(config, env)
   )

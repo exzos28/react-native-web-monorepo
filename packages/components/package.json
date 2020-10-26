@@ -1,5 +1,8 @@
 {
     "name": "components",
     "version": "0.0.1",
-    "private": true
-  }
+    "private": true,
+    "dependencies": {
+        "socket.io-client": "^2.3.1"
+    }
+}
